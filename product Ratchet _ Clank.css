@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Raleway:wght@100;200;300;400;500&display=swap');
+
+body {
+	background: #3E0470;
+	width: 100%;
+	margin: auto;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	height: 85px;
+	width: 100%;
+	border-bottom: 2px solid #5C2F82;
+}
+
+.container1 {
+	width: 95%;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+
+#d {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-top: 4px; 
+}
+
+#ly {
+	position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 93%;
+    top: 16%;
+}
+
+#icon {
+	float: right;
+	height: 85px;
+	width: 30px;
+}
+
+#inst {
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-top: 0.3%;
+}
+
+#you {
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-top: 0.2%;
+}
+
+#dis {
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-top: -5.8%;
+}
+
+.functions {
+	position: absolute;
+    height: 57px;
+    width: 285px;
+    left: 65%;
+    top: 19%;
+}
+
+#kar {
+	position: relative;
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+#like {
+	position: relative;
+    float: right;
+    width: 50px;
+    height: 50px;
+    left: -6%;
+}
+
+#pr {
+	position: relative;
+    float: right;
+    width: 50px;
+    height: 50px;
+    left: -12%;
+}
+
+#call {
+	position: relative;
+    float: right;
+    width: 47px;
+    height: 47px;
+    left: -18%;
+    top: 8%;
+}
+
+.search-box {
+    position: absolute;
+    left: 10%;
+    top: 23%;
+    background: #572781;
+    height: 40px;
+    width: 33%;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.search-txt {
+	border: none;
+	outline: none;
+	font-size: 20px;
+	line-height: 1.71;
+	width: 91%;
+	background: #620CAC;
+	border-radius: 5px;
+	padding: 2px;
+	color: #BFB930;
+}
+
+.menu {
+	position: relative;
+	width: 100%;
+	height: 70px;
+}
+
+.menu a {
+	position: absolute;
+	text-decoration:none;
+	color: #BFB930;
+	top: 10%;
+	font-size: 20px;
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+.menu a:hover {
+	color: #FFF400;
+}
+
+#ps3 {
+	position: absolute;
+	left: 5%;
+	top: 32%;
+}
+
+#ps4 {
+	position: absolute;
+	left: 15%;
+	top: 32%;
+}
+
+#ps5 {
+	position: absolute;
+	left: 25%;
+	top: 32%;
+}
+
+#xbx {
+	position: absolute;
+	left: 35%;
+	top: 32%;
+}
+
+#xbs {
+	position: absolute;
+	left: 46%;
+	top: 32%;
+}
+
+#xb360 {
+	position: absolute;
+	left: 57%;
+	top: 32%;
+}
+
+#xb1 {
+	position: absolute;
+	left: 66%;
+	top: 32%;
+}
+
+#pc {
+	position: absolute;
+	left: 75%;
+	top: 32%;
+}
+
+#swi {
+	position: absolute;
+	left: 80%;
+	top: 32%;
+}
+
+#sd {
+	position: absolute;
+	left: 87%;
+	top: 32%;
+}
+
+.gradient1 {
+	background: rgb(92,47,130);
+	background: linear-gradient(180deg, rgba(92,47,130,1) 30%, rgba(2,0,36,0) 100%);
+	position: absolute;
+	width: 100%;
+	height: 85px;
+	opacity: 0;
+}
+
+.gradient1:hover {
+	background: rgb(92,47,130);
+	background: linear-gradient(180deg, rgba(92,47,130,1) 30%, rgba(2,0,36,0) 100%);
+	position: absolute;
+	width: 100%;
+	height: 85px;
+	opacity: 0.8;
+}
+
+.slider {
+	width: 650px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.middel {
+	position: relative;
+	top: 106px;
+	left: 27%;
+	transform: translate(-50%, 15%);
+}
+
+.navigation {
+	position: absolute;
+	bottom: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+#a1 {
+	width: 200px;
+	height: 400px;
+	margin-left: 223px;
+}
+
+#a2 {
+	
+}
+
+#a3 {
+	
+}
+
+#a4 {
+	
+}
+
+.bar {
+	height: 8px;
+	width: 30px;
+	margin: 6px;
+	cursor: pointer;
+	background-color: #ddd;
+	opacity: 0.7;
+	border-radius: 10px;
+	transition: all .4s ease;
+}
+
+.bar:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides {
+	width: 400%;
+	height: 100%;
+	display: flex;
+}
+
+.slide {
+	width: 25%;
+	transition: all .6s ease;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%
+}
+
+#r1:checked ~ .s1 {
+	margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+	margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+	margin-left: -50%;
+}
+
+
+.text-top {
+	position: relative;
+	top: 676px;
+	width: 100%;
+	height: 53px;
+}
+
+.text-top h2 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #BFB930;
+	font-size: 50px;
+	font-weight: 600;
+	text-shadow: 1px 0px 10px #572781,
+	0px 1px 10px #572781, 
+	-1px 0 10px #572781, 
+	0px -1px 10px #572781;
+}
+
+.product {
+	width: 200px;
+	height: 400px;
+	margin-bottom: 30px;
+}
+
+.top {
+	position: relative;
+	top: 800px;
+	width: 87%;
+	left: 53%;
+	transform: translateX(-50%);
+
+}
+
+.card {
+	width: 200px;
+	height: 400px;
+	margin-bottom: 30px;
+	margin-right: 100px;
+	display: inline-block;
+	background: #9040D5;
+	border: 12px solid #9040D5;
+	border-radius: 10px;
+}
+
+.image img {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.image {
+	margin-bottom: 10px;
+}
+
+.info h2 {
+	font-size: 21px;
+	font-weight: 500; 
+	margin-bottom: 0;
+	margin-top: 0; 
+	color: #000000;
+}
+
+.rating {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style-type: none;
+	margin-top: 0; 
+}
+
+.rating li {
+	display: inline-block;
+	color: #ffc107;
+}
+
+.info-prise {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.add-to-cart {
+	border: none;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #BFB930;
+	color: #572781;
+	border-radius: 10px;
+}
+
+.prise {
+	position: absolute;
+	font-weight: 600;
+	font-size: 50px;
+	color: #000000;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 10px;
+}
+
+.info2 h3 {
+	position: relative;
+	top: 170px;
+	left: 85px;
+	width: 756px;
+	color: #BFB930;
+	font-size: 15px;
+}
+
+.info3 {
+	position: relative;
+	border: 5px solid #572781;
+	border-radius: 10px;
+	width: 400px;
+	height: 371px;
+	top: -334px;
+	float: right;
+	margin-right: 100px;
+}
+
+.info3 h3 {
+	position: absolute;
+	font-size: 8.1px;
+	color: #FFF740;
+	font-weight: 800;
+	top: 200px;
+	border: 2px solid #BFB930;
+}
+
+.info3 img {
+	position: absolute;
+	width: 200px;
+	height: 110px;
+	top: 78px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+#ka {
+	position: absolute;
+	top: 282px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+	list-style-type: none;
+}
+
+#ka ion-icon{
+    width: 30px;
+    height: 30px;
+}
+
+#it {
+	position: absolute;
+	top: 333px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+	list-style-type: none;
+}
+
+#it ion-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.info3 h4 {
+	position: absolute;
+    font-size: 8.1px;
+    color: #BFB930;
+    font-weight: 500;
+    top: 274px;
+    left: 60px;
+    width: 336px;
+}
+
+.info3 h5 {
+	position: absolute;
+    font-size: 8.1px;
+    color: #BFB930;
+    font-weight: 500;
+    top: 326px;
+    left: 60px;
+    width: 336px;
+}
+
+.description {
+	position: relative;
+	width: 100%
+}
+
+.description h2 {
+	position: absolute;
+	left: 85px;
+	color: #BFB930;
+}
+
+.description .rating {
+	position: absolute;
+	left: 85px;
+	top: 80px;
+}
+
+#dissk h3 {
+	position: absolute;
+	left: 85px;
+	top: 100px;
+	font-weight: 400;
+	color: #BFB930;
+	cursor: pointer;
+}
+
+#dissk h4 {
+	position: absolute;
+	left: 250px;
+	top: 100px;
+	font-weight: 400;
+	color: #BFB930;
+	cursor: pointer;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 42%;
+	overflow: auto;
+	background: #fff;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	background: #5b327f;
+}
+
+.popup-content h5 {
+	position: absolute;
+	font-weight: 400;
+	left: 50%;
+	transform: translate(-50%);
+	align-items: center;
+	color: #BFB930;
+	width: 71%;
+}
+
+.popup-content h6 {
+	position: absolute;
+	font-weight: 400;
+	align-items: center;
+	color: #BFB930;
+	top: 71%;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0.7;
+	width: 72%;
+}
+
+.popup-content li {
+	list-style-type: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+
+.popup-content ion-icon{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,51 @@
+body {
+	background: #3E0470;
+	width: 100%;
+	margin: auto;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+li {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	list-style-type: none;
+	left: 48%;
+	top: 10%;
+	transform: translateX(-50%);
+}
+
+ion-icon {
+	width: 150px;
+	height: 150px;
+	list-style-type: none;
+}
+
+h2 {
+	position: absolute;
+	font-weight: 400;
+	color: #BFB930;
+	left: 50%;
+	top: 25%;
+	transform: translateX(-50%);
+}
+
+h3 {
+	position: absolute;
+	font-weight: 400;
+	color: #BFB930;
+	left: 50%;
+	top: 30%;
+	transform: translateX(-50%);
+	width: 845px;
+}
+
+h4 {
+	position: absolute;
+	font-weight: 400;
+	color: #BFB930;
+	left: 50%;
+	top: 35%;
+	transform: translateX(-50%);
+}
